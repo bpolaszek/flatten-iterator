@@ -1,0 +1,30 @@
+{
+  "name": "bentools/flatten-iterator",
+  "description": "Flattens Traversable or arrays into one iterator.",
+  "keywords": ["array", "iterator", "traversable", "iterable", "generator", "flatten", "multidimensionnal"],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BenTools\\FlattenIterator\\" : "src"
+    },
+    "files": ["src/function.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BenTools\\FlattenIterator\\Tests\\" : "tests"
+    },
+    "files": [
+      "vendor/symfony/var-dumper/Resources/functions/dump.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "squizlabs/php_codesniffer": "@stable",
+    "satooshi/php-coveralls": "@stable",
+    "symfony/var-dumper": "^3.2"
+  }
+}

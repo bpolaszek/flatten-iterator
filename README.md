@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/bentools/flatten-iterator/v/stable)](https://packagist.org/packages/bentools/flatten-iterator)
 [![License](https://poser.pugx.org/bentools/flatten-iterator/license)](https://packagist.org/packages/bentools/flatten-iterator)
-[![Build Status](https://img.shields.io/travis/bpolaszek/flatten-iterator/master.svg?style=flat-square)](https://travis-ci.org/bpolaszek/flatten-iterator)
+[![CI Workflow](https://github.com/bpolaszek/flatten-iterator/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/bpolaszek/flatten-iterator/actions/workflows/ci-workflow.yml)
 [![Coverage Status](https://coveralls.io/repos/github/bpolaszek/flatten-iterator/badge.svg?branch=master)](https://coveralls.io/github/bpolaszek/flatten-iterator?branch=master)
 [![Quality Score](https://img.shields.io/scrutinizer/g/bpolaszek/flatten-iterator.svg?style=flat-square)](https://scrutinizer-ci.com/g/bpolaszek/flatten-iterator)
 [![Total Downloads](https://poser.pugx.org/bentools/flatten-iterator/downloads)](https://packagist.org/packages/bentools/flatten-iterator)

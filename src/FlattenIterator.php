@@ -3,23 +3,19 @@
 namespace BenTools\FlattenIterator;
 
 use IteratorAggregate;
+use Traversable;
 
 class FlattenIterator implements IteratorAggregate
 {
     /**
-     * @var iterable
+     * @var iterable<iterable>
      */
-    private $iterables;
+    private iterable $iterables;
+
+    private bool $preserveKeys;
 
     /**
-     * @var bool
-     */
-    private $preserveKeys;
-
-    /**
-     * FlattenIterator constructor.
-     * @param iterable $iterables
-     * @param bool     $preserveKeys
+     * @param iterable<iterable> $iterables
      */
     public function __construct(iterable $iterables, bool $preserveKeys = false)
     {
@@ -30,7 +26,7 @@ class FlattenIterator implements IteratorAggregate
     /**
      * @inheritDoc
      */
-    public function getIterator(): iterable
+    public function getIterator(): Traversable
     {
         foreach ($this->iterables as $iterable) {
             if (!is_iterable($iterable)) {
